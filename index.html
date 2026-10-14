@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulces Decoración YUSHI - Eventos Mágicos y Dulces Momentos</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome para Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Archivo CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- BARRA DE NAVEGACIÓN -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Dulces Decoración YUSHI" class="logo">
+        </div>
+        <nav class="navbar" id="navbar">
+            <a href="#inicio" class="active">INICIO</a>
+            <a href="#nosotros">NOSOTROS</a>
+            <a href="#decoraciones">DECORACIONES</a>
+            <a href="#dulces">DULCES Y POSTRES</a>
+            <a href="#galeria">GALERÍA</a>
+            <a href="#tienda">TIENDA</a>
+            <a href="#contacto">CONTACTO</a>
+        </nav>
+        <div class="menu-toggle" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- SECCIÓN HERO (PRINCIPAL) -->
+    <section id="inicio" class="hero" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/hero-bg.jpg');">
+        <div class="hero-content">
+            <h1>¡Creamos tus Momentos Inolvidables!</h1>
+            <p>Decoraciones personalizadas y los dulces más deliciosos para cada celebración.</p>
+            <div class="hero-buttons">
+                <a href="#decoraciones" class="btn btn-primary">VER DECORACIONES</a>
+                <a href="#dulces" class="btn btn-secondary">PEDIR MIS DULCES</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: NUESTRAS ESPECIALIDADES -->
+    <section id="decoraciones" class="especialidades">
+        <h2>NUESTRAS ESPECIALIDADES</h2>
+        <div class="carousel-container">
+            <button class="carousel-btn prev"><i class="fas fa-chevron-left"></i></button>
+            <div class="especialidades-grid">
+                <!-- Card 1 -->
+                <div class="card">
+                    <img src="images/especialidad-1.jpg" alt="Decoraciones">
+                    <div class="card-body">
+                        <h3>1. DECORACIONES</h3>
+                        <p>Balloons, Temas, Partías</p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <img src="images/especialidad-2.jpg" alt="Mesas de Dulces">
+                    <div class="card-body">
+                        <h3>2. MESAS DE DULCES</h3>
+                        <p>Dessert Tables, Candy Bars</p>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <img src="images/especialidad-3.jpg" alt="Tartas y Postres">
+                    <div class="card-body">
+                        <h3>3. TARTAS Y POSTRES</h3>
+                        <p>Cakes, Cupcakes, Brownies</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-btn next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: GALERÍA DE SUEÑOS -->
+    <section id="galeria" class="galeria">
+        <h2>GALERÍA DE SUEÑOS</h2>
+        <div class="galeria-grid">
+            <div class="galeria-item"><img src="images/galeria-1.jpg" alt="Evento 1"></div>
+            <div class="galeria-item"><img src="images/galeria-2.jpg" alt="Evento 2"></div>
+            <div class="galeria-item"><img src="images/galeria-3.jpg" alt="Evento 3"></div>
+            <div class="galeria-item"><img src="images/galeria-4.jpg" alt="Evento 4"></div>
+            <div class="galeria-item"><img src="images/galeria-5.jpg" alt="Evento 5"></div>
+            <div class="galeria-item"><img src="images/galeria-6.jpg" alt="Evento 6"></div>
+            <div class="galeria-item"><img src="images/galeria-7.jpg" alt="Evento 7"></div>
+            <div class="galeria-item"><img src="images/galeria-8.jpg" alt="Evento 8"></div>
+        </div>
+        <div class="center-btn">
+            <a href="#" class="btn btn-primary">Ver Galería</a>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: TESTIMONIOS Y REDES -->
+    <section class="social-testimonials">
+        <div class="testimonials">
+            <h3>LO QUE DICEN NUESTROS CLIENTES</h3>
+            <div class="testimonial-box">
+                <img src="images/client.jpg" alt="Cliente" class="client-avatar">
+                <p>"¡Increíble servicio! Las decoraciones superaron todas nuestras expectativas, los detalles y la atención fueron excepcionales. Sin duda hicieron que nuestra fiesta fuera mágica e inolvidable."</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+        <div class="instagram-feed">
+            <h3>SÍGUENOS EN INSTAGRAM <br><span class="ig-handle">(@dulces_yushi_bo)</span></h3>
+            <div class="ig-grid">
+                <img src="images/ig-1.jpg" alt="IG 1">
+                <img src="images/ig-2.jpg" alt="IG 2">
+                <img src="images/ig-3.jpg" alt="IG 3">
+                <img src="images/ig-4.jpg" alt="IG 4">
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER / CONTACTO -->
+    <footer id="contacto" class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <p><i class="fas fa-phone-alt"></i> 079 888 6573</p>
+                <p><i class="fas fa-envelope"></i> info@dulcesyushi.com</p>
+                <p><i class="fas fa-globe"></i> dulcesdecoración yushi</p>
+            </div>
+            <div class="footer-address">
+                <p><i class="fas fa-map-marker-alt"></i> San Ruela Monscidin Bolivia<br>173 Coche dr.<br>Cochabamba, Bolivia</p>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © Dulces Decoración YUSHI</p>
+        </div>
+    </footer>
+
+    <!-- Script sencillo para menú móvil -->
+    <script>
+        const toggleBtn = document.getElementById('menu-toggle');
+        const navbar = document.getElementById('navbar');
+
+        toggleBtn.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
